@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>电影推荐</title>
+  <link href="style.css" rel="stylesheet">
+  <link
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet">
+</head>
+<body>
+<!--顶部logo和搜索-->
+<header>
+  <div class="container">
+    <div class="row">
+      <!--logo-->
+      <div class="col-4">
+        <a href="index.html"><img alt="豆瓣" src="images/logo.png"></a>
+      </div>
+      <!--站内搜索-->
+      <div class="col-4">
+        <div class="row">
+          <i class="fa fa-search"></i>
+          <input autocomplete="off" class="search_input" maxlength="60"
+                 name="search_text" placeholder="搜索电影、电视剧、综艺、影人"
+                 size="22" type="text" value="">
+          <div class="search_btn">
+            <input type="submit" value="搜索">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--页眉左侧下半部分导航栏-->
+<nav>
+  <div class="container-full-center">
+    <div class="row">
+      <div class="col"><a href="#">热门</a></div>
+      <div class="col"><a href="#">最新</a></div>
+      <div class="col"><a href="#">经典</a></div>
+      <div class="col"><a href="#">可播放</a></div>
+      <div class="col"><a href="#">豆瓣高分</a></div>
+      <div class="col"><a href="#">冷门佳片</a></div>
+      <div class="col"><a href="#">华语</a></div>
+      <div class="col"><a href="#">欧美</a></div>
+      <div class="col"><a href="#">韩国</a></div>
+      <div class="col"><a href="#">日本</a></div>
+    </div>
+  </div>
+</nav>
+<!--推荐列表-->
+<div class="search-factor"></div>
+<div class="list-sort">
+  <div class="sort-items">
+    <span class="sort-item">相关度排序</span>
+    <span class="sort-item">推荐排序</span>
+    <span class="sort-item">最近开场</span>
+    <span class="sort-item">最新上架</span>
+  </div>
+  <div></div>
+</div>
+<div class="list">
+  <div class="list-box">
+    <div class="list-item">
+      <a class="list-item-img" href="#"><img alt="" src="images/joker.jpg"></a>
+      <div class="list-item-text">
+        <div class="list-item-text-title"><a href="#">小丑 Joker(2019)</a></div>
+        <div class="list-item-text-score">豆瓣评分:<strong>8.8</strong></div>
+        <div class="list-item-text-describe">
+          本片的故事将独立于DCEU之外，故事背景设置在20世纪80年代，讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--版权信息-->
+<div class="copyright">
+  <div>
+        <span class="copyright_link">
+             © 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司
+        </span>
+    <span class="copyright_fright">
+            <a href="#">关于豆瓣</a>
+            <a href="#">在豆瓣工作</a>
+            <a href="#">联系我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">帮助中心</a>
+            <a href="#">移动应用</a>
+            <a href="#">豆瓣广告</a>
+        </span>
+  </div>
+</div>
+</body>
+</html>

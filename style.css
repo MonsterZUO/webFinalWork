@@ -302,3 +302,60 @@ nav {
   position: absolute;
   bottom: 0;
 }
+/*movie.html*/
+/*ÅÅÐò*/
+
+
+
+/*ÍÆ¼öÁÐ±í*/
+.list{
+  width: 1160px;
+  min-height: 211px;
+  padding: 5px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ebebeb;
+  flex-direction: column;
+}
+
+.list-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item{
+  padding: 25px 0 18px;
+  border: 1px dotted #cecece;
+  margin: 0 10px;
+  display: flex;
+}
+
+.list-item-img{
+  width: 206px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.list-item-img img{
+  width: 100%;
+}
+
+.list-item-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item-text-title{
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list-item-text-score{
+  margin-bottom: 6px;
+}
+
+.list-item-text-describe{
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #405266;
+}
