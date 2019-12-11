@@ -1,0 +1,304 @@
+/*公共*/
+/*清除所有元素默认的内、外边距，默认字体是微软雅黑。*/
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*定义栅格系统*/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-full {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.container-full-center {
+  display: flex;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.row-center {
+  width: 100%;
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}
+
+.col-1 {
+  flex: 0 0 8.33333%;
+}
+
+.col-2 {
+  flex: 0 0 16.66667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33333%;
+}
+
+.col-5 {
+  flex: 0 0 41.66667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.33333%;
+}
+
+.col-8 {
+  flex: 0 0 66.66667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.33333%;
+}
+
+.col-11 {
+  flex: 0 0 91.66667%;
+}
+
+.col-1, .col, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*顶部logo和搜索*/
+header {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 16px 0 rgba(220, 220, 220, .5);
+  /*border: solid black 1px;*/
+}
+
+header .container {
+  background-color: white;
+  padding-top: 5px;
+}
+
+/*logo*/
+header .container .logo {
+  margin-left: 10px;
+}
+
+/*search*/
+.search .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 5px 20px;
+  border: 1px #cccccc solid;
+}
+
+.search .container input {
+  background-color: #f8f8f8;
+  border: 0;
+}
+
+.search_btn input {
+  height: 100%;
+  /*background-color: #ff1268;*/
+  border: 0;
+}
+
+/*导航栏*/
+nav {
+  display: flex;
+  width: 1200px;
+  height: 116px;
+  justify-content: center;
+  margin-top: 15px;
+  border: 1px solid #ebebeb;
+}
+
+/*图片*/
+.img_big {
+  width: 272px;
+}
+
+/*section*/
+.section {
+  width: 1160px;
+  height: 415px;
+  padding: 20px;
+  margin-top: 15px;
+  display: flex;
+  border: 1px solid #ebebeb;
+  flex-direction: column;
+}
+
+.section-head {
+  width: 1160px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-head-title {
+  color: #111111;
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.section-head-more {
+  font-size: 14px;
+  color: #9b9b9b;
+  line-height: 40px;
+  text-align: center;
+}
+
+.section-box{
+  height: 360px;
+  width: 1160px;
+  margin-top: 15px;
+  display: flex;
+  position: relative;
+}
+
+.section-box-left{
+  height: 360px;
+  width: 270px;
+  overflow: hidden;
+}
+
+.section-box-left-img{
+  width: 100%;
+}
+
+.section-box-left-info{
+  width: 250px;
+  height: 84px;
+  padding: 17px 10px;
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+}
+
+.section-box-left-info-title{
+  color: white;
+  height: 45px;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.section-box-left-info-score{
+  width: 100%;
+  height: 26px;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.section-box-left-info-title:hover, .section-box-left-info-score:hover, .section-box-right-item-info div:hover{
+  color: red;
+}
+
+.section-box-right{
+  width: 870px;
+  height: 360px;
+  margin-left: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-box-right-item{
+  width: 273px;
+  height: 160px;
+  margin-right: 16px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+}
+
+.section-box-right-item-img{
+  width: 118px;
+  height: 158px;
+  overflow: hidden;
+}
+
+.section-box-right-item-img img{
+  width: 100%;
+}
+
+.section-box-right-item-info{
+  width: 138px;
+  height: 100%;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-box-right-info-title{
+  color: grey;
+  height: 45px;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.section-box-right-info-score{
+  width: 100%;
+  height: 26px;
+  color: black;
+  font-size: 20px;
+  overflow: hidden;
+  margin-top: 12px;
+  position: absolute;
+  bottom: 0;
+}

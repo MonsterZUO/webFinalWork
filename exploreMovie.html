@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--页眉-->
+<header>
+  <!--页眉左侧内容-->
+  <div>
+    <!--页眉左侧logo+搜索栏-->
+    <div class="header_left">
+      <!--logo-->
+      <div class="logo">
+        <a href="#">豆瓣电影</a>
+      </div>
+      <!--站内搜索-->
+      <div class="search">
+        <fieldset>
+          <label>
+            <input autocomplete="off" class="search_input" maxlength="60"
+                   name="search_text"
+                   placeholder="搜索电影、电视剧、综艺、影人"
+                   size="22" type="text" value="">
+          </label>
+          <div class="search_btn"><input type="submit" value="搜索"></div>
+          <div></div>
+        </fieldset>
+        </form>
+      </div>
+    </div>
+    <!--页眉左侧导航栏-->
+    <div class="nav">
+      <nav class="container">
+        <ul>
+          <li><a href="#">我看</a></li>
+          <li><a href="#">影讯&购票</a></li>
+          <li><a href="#">选电影</a></li>
+          <li><a href="#">电视剧</a></li>
+          <li><a href="#">排行榜</a></li>
+          <li><a href="#">分类</a></li>
+          <li><a href="#">影评</a></li>
+          <li><a href="#">2018年度榜单</a></li>
+          <li><a href="#">2018书影音报告</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--右侧榜单入口-->
+  <div class="header_right">
+    <a class="movieAnnual2018" href="#"> 2018 豆瓣年度电影榜单</a>
+  </div>
+</header>
+<!--内容-->
+<div>
+  <!--  内容-->
+  <div id="content">
+    <h1>选电影</h1>
+    <div>
+      <div class="article">
+        <div>
+          <div class="filter-wp">
+            <h2><a href="#">选电影&nbsp;/&nbsp;</a></h2>
+            <div class="filter">
+              <form action="get" autocomplete="off">
+                <div class="tags">
+                  <div class="tag-list">
+                    <label class="active">热门</label>
+                    <label>最新</label>
+                    <label>经典</label>
+                    <label>可播放</label>
+                    <label>豆瓣高分</label>
+                    <label>冷门佳片</label>
+                    <label>华语</label>
+                    <label>欧美</label>
+                    <label>韩国</label>
+                    <label>日本</label>
+                    <label>动作</label>
+                    <label>喜剧</label>
+                    <label>爱情</label>
+                    <label>科幻</label>
+                    <label>悬疑</label>
+                    <label>恐怖</label>
+                    <label>动画</label>
+                  </div>
+                </div>
+                <div class="tool">
+                  <div class="sort">
+                    <label>
+                      <input checked="checked" name="sort" type="radio"
+                             value="recommend">按热度排序
+                    </label>
+                    <label>
+                      <input name="sort" type="radio" value="time">按时间排序
+                    </label>
+                    <label>
+                      <input name="sort" type="radio" value="rank">按评价排序
+                    </label>
+                  </div>
+                  <div class="check">
+                    <label>
+                      <input class="me" name="watched" type="checkbox">我没看过的
+                    </label>
+                    <label>
+                      <input name="playable" type="checkbox">可在线播放
+                    </label>
+                  </div>
+                </div>
+                <div></div>
+              </form>
+            </div>
+          </div>
+          <div class="list-wp">
+            <div class="list">
+              <a href="#">
+                <div class="cover-wp"><img alt="" src="images/joker.jpg"></div>
+                <p>小丑<strong>8.8</strong></p>
+              </a>
+              <a href="#">
+                <div class="cover-wp"><img alt="" src=""></div>
+                <p>好莱坞往事<strong>7.4</strong></p>
+              </a>
+              <a href="#">
+                <div class="cover-wp"><img alt="" src=""></div>
+                <p>我叫多麦特<strong>7.0</strong></p>
+              </a>
+              <a href="#">
+                <div class="cover-wp"><img alt="" src=""></div>
+                <p>她的马拉松<strong>6.8</strong></p>
+              </a>
+              <a href="#">
+                <div class="cover-wp"><img alt="" src=""></div>
+                <p>攀登者<strong>6.2</strong></p>
+              </a>
+            </div>
+            <a class="more" href="#">加载更多</a>
+          </div>
+        </div>
+      </div>
+      <div class="aside">
+        <!--        热门豆列-->
+        <div>
+          <h2>热门豆列</h2>
+          <ul>
+            <li>
+              <span>推荐量</span>
+              <div class="title"><a href="#"></a></div>
+            </li>
+            <li>
+              <span>推荐量</span>
+              <div class="title"><a href="#"></a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="extra"></div>
+    </div>
+  </div>
+  <!--版权信息-->
+  <div class="copyright">
+    <div>
+        <span class="copyright_link">
+             © 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司
+        </span>
+      <span class="copyright_fright">
+            <a href="#">关于豆瓣</a>
+            <a href="#">在豆瓣工作</a>
+            <a href="#">联系我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">帮助中心</a>
+            <a href="#">移动应用</a>
+            <a href="#">豆瓣广告</a>
+        </span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

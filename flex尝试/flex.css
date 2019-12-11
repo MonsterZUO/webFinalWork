@@ -1,0 +1,17 @@
+.flex_box{
+  display: flex;
+  flex-direction: column;
+  flex:auto;
+}
+
+div[class^="item"] {
+  display: flex;
+  flex-direction: column;
+  flex:auto;
+}
+
+.item_down_right{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
