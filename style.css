@@ -1,220 +1,232 @@
 /*公共*/
 /*清除所有元素默认的内、外边距，默认字体是微软雅黑。*/
 * {
-  padding: 0px;
-  margin: 0px;
-  font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .w1200 {
-  width: 1200px;
+	width: 1200px;
 }
 
 .w1200-border {
-  width: 1198px;
+	width: 1198px;
 }
 
 /*定义栅格系统*/
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
 }
 
 .container-full {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
 }
 
 .container-full-center {
-  display: flex;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  justify-content: center;
+	display: flex;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	justify-content: center;
 }
 
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
 }
 
 .row {
-  width: 100%;
-  display: flex;
-  margin-left: -15px;
-  margin-right: -15px;
+	width: 100%;
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
 .row-center {
-  width: 100%;
-  display: flex;
-  margin-left: -15px;
-  margin-right: -15px;
-  justify-content: center;
+	width: 100%;
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
+	justify-content: center;
 }
 
 .col {
-  flex: 1;
+	flex: 1;
 }
 
 .col-12 {
-  flex: 0 0 100%;
+	flex: 0 0 100%;
 }
 
 .col-1 {
-  flex: 0 0 8.33333%;
+	flex: 0 0 8.33333%;
 }
 
 .col-2 {
-  flex: 0 0 16.66667%;
+	flex: 0 0 16.66667%;
 }
 
 .col-3 {
-  flex: 0 0 25%;
+	flex: 0 0 25%;
 }
 
 .col-4 {
-  flex: 0 0 33.33333%;
+	flex: 0 0 33.33333%;
 }
 
 .col-5 {
-  flex: 0 0 41.66667%;
+	flex: 0 0 41.66667%;
 }
 
 .col-6 {
-  flex: 0 0 50%;
+	flex: 0 0 50%;
 }
 
 .col-7 {
-  flex: 0 0 58.33333%;
+	flex: 0 0 58.33333%;
 }
 
 .col-8 {
-  flex: 0 0 66.66667%;
+	flex: 0 0 66.66667%;
 }
 
 .col-9 {
-  flex: 0 0 75%;
+	flex: 0 0 75%;
 }
 
 .col-10 {
-  flex: 0 0 83.33333%;
+	flex: 0 0 83.33333%;
 }
 
 .col-11 {
-  flex: 0 0 91.66667%;
+	flex: 0 0 91.66667%;
 }
 
-.col-1, .col, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-  padding-left: 15px;
-  padding-right: 15px;
+.col-1,
+.col,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /*顶部logo和搜索*/
 header {
-  width: 100%;
-  height: 72px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 2px 16px 0 rgba(220, 220, 220, .5);
-  /*border: solid black 1px;*/
-  margin-bottom: 5px;
+	width: 100%;
+	height: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 2px 16px 0 rgba(220, 220, 220, .5);
+	/*border: solid black 1px;*/
+	margin-bottom: 5px;
 }
 
 header .container {
-  background-color: white;
-  padding-top: 5px;
-  justify-content: center;
+	background-color: white;
+	padding-top: 5px;
+	justify-content: center;
 }
 
 header .container .row {
-  align-items: center;
+	align-items: center;
 }
 
 /*logo*/
 header .container .logo {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 /*search*/
 .search {
-  width: 401px;
-  height: 46px;
-  line-height: 46px;
-  position: relative;
-  display: flex;
+	width: 401px;
+	height: 46px;
+	line-height: 46px;
+	position: relative;
+	display: flex;
 }
 
 .search i {
-  position: absolute;
-  top: 15px;
-  left: 22px;
-  width: 17px;
-  z-index: 11;
+	position: absolute;
+	top: 15px;
+	left: 22px;
+	width: 17px;
+	z-index: 11;
 }
 
 .search_input {
-  width: 253px;
-  height: 44px;
-  font-size: 16px;
-  padding-left: 54px;
-  border-radius: 27px 0 0 27px;
-  background-color: #f8f8f8;
-  border: 1px solid #F8F8F8;
+	width: 253px;
+	height: 44px;
+	font-size: 16px;
+	padding-left: 54px;
+	border-radius: 27px 0 0 27px;
+	background-color: #f8f8f8;
+	border: 1px solid #F8F8F8;
 }
 
 .search_input:focus {
-  border-color: #ff1268;
+	border-color: #ff1268;
 }
 
 .search_btn {
-  width: 82px;
-  height: 100%;
-  background: #ff1268;
-  line-height: 46px;
-  font-size: 16px;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 27px 27px 0;
-  border: 1px solid #F8F8F8;
+	width: 82px;
+	height: 100%;
+	background: #ff1268;
+	line-height: 46px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 27px 27px 0;
+	border: 1px solid #F8F8F8;
 }
 
 /*导航栏*/
 nav {
-  display: flex;
-  width: 1198px;
-  height: 116px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-  border: 1px solid #ebebeb;
+	display: flex;
+	width: 1198px;
+	height: 116px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	border: 1px solid #ebebeb;
 }
 
 nav .row .col a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 nav .row .col a img {
-  width: 48px;
+	width: 48px;
 }
 
 .nav-icon-info {
-  text-align: center;
-  font-size: 20px;
+	text-align: center;
+	font-size: 20px;
 }
 
 /*.nav-icon{*/
@@ -223,17 +235,17 @@ nav .row .col a img {
 /*}*/
 
 .icon1 {
-  display: block;
-  background: url(images/icons/png/002-person.png);
+	display: block;
+	background: url(images/icons/png/002-person.png);
 }
 
 /*轮播图*/
 .slider {
-  width: 1200px;
-  /*height: 335px;*/
-  position: relative;
-  margin-bottom: 0.5rem;
-  border: 1px solid #CCCCCC;
+	width: 1200px;
+	/*height: 335px;*/
+	position: relative;
+	margin-bottom: 0.5rem;
+	border: 1px solid #CCCCCC;
 }
 
 /*.slider dl, .slider dd {*/
@@ -241,776 +253,793 @@ nav .row .col a img {
 /*}*/
 
 .slider dt {
-  position: absolute;
-  bottom: 10px;
-  right: 5px;
-  display: flex;
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+	display: flex;
 }
 
 .slider dd {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
 }
 
 .slider dd img {
-  width: 100%;
+	width: 100%;
 }
 
 .slider dl dt a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 24px;
-  height: 24px;
-  padding: 0 1px 1px 0;
-  border-radius: 15px;
-  margin-right: 5px;
-  background-color: hsl(20, 50%, 30%);
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
-  font-size: 0.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	padding: 0 1px 1px 0;
+	border-radius: 15px;
+	margin-right: 5px;
+	background-color: hsl(20, 50%, 30%);
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+	font-size: 0.8rem;
 }
 
 /*图片*/
 .img_big {
-  width: 272px;
+	width: 272px;
 }
 
 /*section*/
 .section {
-  width: 1160px;
-  height: 415px;
-  padding: 20px;
-  margin-top: 15px;
-  display: flex;
-  border: 1px solid #ebebeb;
-  flex-direction: column;
+	width: 1160px;
+	height: 415px;
+	padding: 20px;
+	margin-top: 15px;
+	display: flex;
+	border: 1px solid #ebebeb;
+	flex-direction: column;
 }
 
 .section-head {
-  width: 1160px;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
+	width: 1160px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .section-head-title {
-  color: #111111;
-  font-size: 24px;
-  margin-left: 5px;
+	color: #111111;
+	font-size: 24px;
+	margin-left: 5px;
 }
 
 .section-head-more {
-  font-size: 14px;
-  color: #9b9b9b;
-  line-height: 40px;
-  text-align: center;
+	font-size: 14px;
+	color: #9b9b9b;
+	line-height: 40px;
+	text-align: center;
 }
 
 .section-box {
-  height: 360px;
-  width: 1160px;
-  margin-top: 15px;
-  display: flex;
-  position: relative;
+	height: 360px;
+	width: 1160px;
+	margin-top: 15px;
+	display: flex;
+	position: relative;
 }
 
 .section-box-left {
-  height: 360px;
-  width: 270px;
-  overflow: hidden;
+	height: 360px;
+	width: 270px;
+	overflow: hidden;
 }
 
 .section-box-left-img {
-  width: 100%;
+	width: 100%;
 }
 
 .section-box-left-info {
-  width: 250px;
-  height: 84px;
-  padding: 17px 10px;
-  background-color: rgba(0, 0, 0, .5);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  color: white;
+	width: 250px;
+	height: 84px;
+	padding: 17px 10px;
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: white;
 }
 
 .section-box-left-info-title {
-  color: white;
-  height: 45px;
-  font-size: 16px;
-  overflow: hidden;
+	color: white;
+	height: 45px;
+	font-size: 16px;
+	overflow: hidden;
 }
 
 .section-box-left-info-score {
-  width: 100%;
-  height: 26px;
-  color: white;
-  font-size: 20px;
-  overflow: hidden;
-  margin-top: 12px;
+	width: 100%;
+	height: 26px;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	margin-top: 12px;
 }
 
-.section-box-left-info-title:hover, .section-box-left-info-score:hover, .section-box-right-item-info div:hover {
-  color: red;
+.section-box-left-info-title:hover,
+.section-box-left-info-score:hover,
+.section-box-right-item-info div:hover {
+	color: red;
 }
 
 .section-box-right {
-  width: 870px;
-  height: 360px;
-  margin-left: 20px;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
+	width: 870px;
+	height: 360px;
+	margin-left: 20px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .section-box-right-item {
-  width: 273px;
-  height: 160px;
-  margin-right: 16px;
-  margin-bottom: 40px;
-  overflow: hidden;
-  display: flex;
+	width: 273px;
+	height: 160px;
+	margin-right: 16px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	display: flex;
 }
 
 .section-box-right-item-img {
-  width: 118px;
-  height: 158px;
-  overflow: hidden;
+	width: 118px;
+	height: 158px;
+	overflow: hidden;
 }
 
 .section-box-right-item-img img {
-  width: 100%;
+	width: 100%;
 }
 
 .section-box-right-item-info {
-  width: 138px;
-  height: 100%;
-  padding-left: 15px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: flex-start;
+	width: 138px;
+	height: 100%;
+	padding-left: 15px;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .section-box-right-item-info-title {
-  /*line-height: 20px;*/
-  font-size: 16px;
-  overflow: hidden;
-  margin-bottom: 10px;
+	/*line-height: 20px;*/
+	font-size: 16px;
+	overflow: hidden;
+	margin-bottom: 10px;
 }
 
 .section-box-right-item-info-describe {
-  width: 100%;
-  height: 16px;
-  line-height: 20px;
-  overflow: hidden;
-  font-size: 12px;
-  color: #9B9B9B;
+	width: 100%;
+	height: 16px;
+	line-height: 20px;
+	overflow: hidden;
+	font-size: 12px;
+	color: #9B9B9B;
 }
 
 .section-box-right-item-info-brief {
-  font-size: 12px;
-  color: #9B9B9B;
+	font-size: 12px;
+	color: #9B9B9B;
 }
 
 .section-box-right-item-info-score {
-  color: #4dd0e1;
-  font-size: 16px;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
+	color: #4dd0e1;
+	font-size: 16px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
 }
 
 br {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 /*movie.html*/
 /*排序*/
 .list-sort {
-  width: 1198px;
-  height: 38px;
-  line-height: 38px;
-  background-color: #f5f5f5;
-  border: 1px solid #eaeaea;
-  margin-top: 14px;
-  border-bottom: none;
-  display: flex;
-  justify-content: flex-start;
+	width: 1198px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #f5f5f5;
+	border: 1px solid #eaeaea;
+	margin-top: 14px;
+	border-bottom: none;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .sort-items {
-  display: flex;
-  justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .sort-item {
-  height: 100%;
-  padding: 0 24px;
-  color: #666;
-  border-right: 1px solid #eaeaea;
-  cursor: pointer;
+	height: 100%;
+	padding: 0 24px;
+	color: #666;
+	border-right: 1px solid #eaeaea;
+	cursor: pointer;
 }
 
 /*电影推荐列表*/
 .list {
-  width: 1162px;
-  min-height: 211px;
-  padding: 5px 18px;
-  margin-bottom: 20px;
-  border: 1px solid #ebebeb;
-  flex-direction: column;
+	width: 1162px;
+	min-height: 211px;
+	padding: 5px 18px;
+	margin-bottom: 20px;
+	border: 1px solid #ebebeb;
+	flex-direction: column;
 }
 
 .list-box {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .list-item {
-  padding: 25px 0 18px;
-  border-bottom: 1px solid #cecece;
-  margin: 0 10px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+	padding: 25px 0 18px;
+	border-bottom: 1px solid #cecece;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .list-item-img {
-  width: 230px;
-  overflow: hidden;
-  margin-right: 20px;
+	width: 230px;
+	overflow: hidden;
+	margin-right: 20px;
 }
 
 .list-item-img img {
-  width: 100%;
+	width: 100%;
 }
 
 .list-item-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .list-item-text-title {
-  margin-bottom: 6px;
-  font-size: 16px;
+	margin-bottom: 6px;
+	font-size: 16px;
 }
 
 .list-item-text-score {
-  font-size: 16px;
-  margin-bottom: 6px;
-  color: #4dd0e1;
+	font-size: 16px;
+	margin-bottom: 6px;
+	color: #4dd0e1;
 }
 
 .list-item-text-describe {
-  color: #9B9B9B;;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #cecece;
-  font-size: 15px;
+	color: #9B9B9B;
+	;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #cecece;
+	font-size: 15px;
 }
 
 /*tv推荐列表*/
 .tv-list {
-  width: 1160px;
-  padding: 30px 18px 5px 18px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  border: 1px solid #ebebeb;
+	width: 1160px;
+	padding: 30px 18px 5px 18px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border: 1px solid #ebebeb;
 }
 
 .tv-list-item {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  position: relative;
-  margin-right: 5%;
-  margin-bottom: 30px;
-  overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	position: relative;
+	margin-right: 5%;
+	margin-bottom: 30px;
+	overflow: hidden;
 }
 
 .tv-list-item img {
-  width: 100%;
-  transition: 0.5s;
+	width: 100%;
+	transition: 0.5s;
 }
 
 .tv-list-item-hover {
-  color: white;
-  position: absolute;
-  top: 153px;
-  left: 69px;
-  padding: 8px 15px;
-  background-color: #dd003f;
-  text-align: center;
-  border-radius: 20px;
-  display: none;
-  opacity: 0;
-  transition: 0.5s;
+	color: white;
+	position: absolute;
+	top: 153px;
+	left: 69px;
+	padding: 8px 15px;
+	background-color: #dd003f;
+	text-align: center;
+	border-radius: 20px;
+	display: none;
+	opacity: 0;
+	transition: 0.5s;
 }
 
 /*图片上查看详情动画*/
 .tv-list-item:hover img {
-  opacity: 0.5;
+	opacity: 0.5;
 }
 
 .tv-list-item:hover .tv-list-item-hover {
-  opacity: 1;
-  display: block;
+	opacity: 1;
+	display: block;
 }
 
 /*detail.html*/
 
 /*详情*/
 .detail {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .detail-title {
-  font-size: 26px;
+	font-size: 26px;
 }
 
 .year {
-  color: #888;
+	color: #888;
 }
 
 /*简介*/
 .detail-brief {
-  display: flex;
-  margin-top: 20px;
+	display: flex;
+	margin-top: 20px;
 }
 
 .detail-img {
-  height: 400px;
-  width: 270px;
-  display: flex;
-  margin-right: 25px;
+	height: 400px;
+	width: 270px;
+	display: flex;
+	margin-right: 25px;
 }
 
 .detail-info {
-  font-size: 16px;
-  line-height: 25px;
-  margin-right: 25px;
+	font-size: 16px;
+	line-height: 25px;
+	margin-right: 25px;
 }
 
 /*评分*/
 .detail-score-box {
-  display: flex;
-  flex-direction: column;
-  border-left: 1px solid #ebebeb;
-  padding-left: 25px;
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid #ebebeb;
+	padding-left: 25px;
 }
 
 .detail-score {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .detail-score-rate-box {
-  margin-top: 15px;
-  display: flex;
-  align-items: center;
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
 }
 
 .detail-score-rate {
-  font-size: 28px;
+	font-size: 28px;
 }
 
 .detail-score-stars {
-  display: flex;
-  flex-direction: column;
-  padding-left: 6px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 6px;
 }
 
 .detail-score-stars a:hover {
-  background-color: #ff1268;
+	background-color: #ff1268;
 }
 
 .star45 {
-  height: 15px;
-  background: url(images/star.png) no-repeat 0 -15px;
+	height: 15px;
+	background: url(images/star.png) no-repeat 0 -15px;
 }
 
 .detail-betterthan {
-  margin-top: 15px;
-  padding: 15px 0;
-  border-top: 1px solid #eaeaea;
-  color: #9b9b9b;
+	margin-top: 15px;
+	padding: 15px 0;
+	border-top: 1px solid #eaeaea;
+	color: #9b9b9b;
 }
 
 .ticket {
-  width: 64px;
-  background-color: #EEEEEE;
-  border: 1px solid #d9d9d9;
-  border-radius: 5px;
-  margin-top: 40px;
-  padding: 0 10px;
+	width: 64px;
+	background-color: #EEEEEE;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	margin-top: 40px;
+	padding: 0 10px;
 }
 
 .ticket a {
-  color: #494949;
-  background: #f3f3f3;
-  line-height: 24px;
+	color: #494949;
+	background: #f3f3f3;
+	line-height: 24px;
 }
 
 .ticket a:hover {
-  color: #ff1268;
+	color: #ff1268;
 }
 
 .detail-describe {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .detail-describe h2 {
-  margin: 24px 0 12px 0;
+	margin: 24px 0 12px 0;
 }
 
 /*演职员*/
 .detail-actors {
-  width: 100%;
-  margin-bottom: 25px;
+	width: 100%;
+	margin-bottom: 25px;
 }
 
 .actor-list {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .actor {
-  flex: 0 0 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+	flex: 0 0 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
 
 .actor img {
-  width: 100%;
-  margin-bottom: 5px;
+	width: 100%;
+	margin-bottom: 5px;
 }
 
-.actor-name, .actor-role {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.actor-name,
+.actor-role {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .actor-role {
-  color: #9b9b9b;
+	color: #9b9b9b;
 }
 
 /*页脚*/
 .copyright-bg {
-  width: 100%;
-  background-color: #f8f8f8;
-  display: flex;
-  justify-content: center;
+	width: 100%;
+	background-color: #f8f8f8;
+	display: flex;
+	justify-content: center;
 }
 
 .copyright {
-  width: 1200px;
-  
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	width: 1200px;
+
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .copyright-links {
-  display: flex;
-  justify-content: center;
-  padding: 36px 0;
+	display: flex;
+	justify-content: center;
+	padding: 36px 0;
 }
 
 .copyright-gap {
-  padding: 0 24px;
+	padding: 0 24px;
 }
 
 /*theater.html*/
 
 /*影院信息*/
 .theater {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .marginbottom15 {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .theater-movie-detail {
-  width: 1170px;
-  display: flex;
-  justify-content: flex-start;
-  padding: 15px;
-  background: rgba(64, 69, 77, .35);
+	width: 1170px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 15px;
+	background: rgba(64, 69, 77, .35);
 }
 
 .theater-movie-detail img {
-  height: 100%;
-  margin-right: 20px;
+	height: 100%;
+	margin-right: 20px;
 }
 
 .theater-movie-poster {
-  height: 200px;
+	height: 200px;
 }
 
 .theater-detail-info {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
 .theater-list {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .theater-list-item {
-  width: 1170px;
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+	width: 1170px;
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .theater-item {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .over {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .theater-name {
-  color: #333333;
-  font-size: 1.6rem;
+	color: #333333;
+	font-size: 1.6rem;
 }
 
 .lowestprice {
-  color: #ff3200;
-  font-size: 1.9rem;
+	color: #ff3200;
+	font-size: 1.9rem;
 }
 
 .yuan {
-  font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 
 .qi {
-  font-size: 1.1rem;
-  padding-left: .1rem;
-  color: #999999;
+	font-size: 1.1rem;
+	padding-left: .1rem;
+	color: #999999;
 }
 
 .theater-address {
-  color: #666666;
-  font-size: 1.3rem;
+	color: #666666;
+	font-size: 1.3rem;
 }
 
 .distance {
-  color: #999999;
-  font-size: 1.2rem;
+	color: #999999;
+	font-size: 1.2rem;
 }
 
 .theater-recent {
-  color: #666666;
-  font-size: 1.3rem;
+	color: #666666;
+	font-size: 1.3rem;
 }
 
 /*场次*/
 .time-list {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .time-list-item {
-  width: 1170px;
-  padding: 1.5rem;
-  border-bottom: 1px solid #e5e5e5;
-  display: flex;
-  align-items: center;
+	width: 1170px;
+	padding: 1.5rem;
+	border-bottom: 1px solid #e5e5e5;
+	display: flex;
+	align-items: center;
 }
 
 .time {
-  flex: 0 0 7.5rem;
-  line-height: 1.4;
+	flex: 0 0 7.5rem;
+	line-height: 1.4;
 }
 
 .time-start {
-  font-size: 1.9rem;
-  color: #333;
+	font-size: 1.9rem;
+	color: #333;
 }
 
 .time-end {
-  font-size: 1.2rem;
-  margin-top: .2rem;
-  padding-left: 1px;
-  color: #999999;
+	font-size: 1.2rem;
+	margin-top: .2rem;
+	padding-left: 1px;
+	color: #999999;
 }
 
 .language {
-  color: #333333;
-  font-size: 1.2rem;
-  padding-top: .6rem;
-  line-height: 1.5;
+	color: #333333;
+	font-size: 1.2rem;
+	padding-top: .6rem;
+	line-height: 1.5;
 }
 
 .movie-hall {
-  margin-top: .2rem;
-  padding-top: .2rem;
-  font-size: 1.2rem;
-  color: #999999;
+	margin-top: .2rem;
+	padding-top: .2rem;
+	font-size: 1.2rem;
+	color: #999999;
 }
 
 .time-list-price {
-  flex: 1;
-  text-align: right;
+	flex: 1;
+	text-align: right;
 }
 
 .time-list-btn {
-  padding-left: 2rem;
-  justify-self: flex-end;
+	padding-left: 2rem;
+	justify-self: flex-end;
 }
 
 .time-list-btn button {
-  color: white;
-  width: 5.2rem;
-  padding: .8rem .6rem;
-  border-radius: 1.6rem;
-  background-color: #ff3200;
-  border: 1px solid #ff3200;
+	color: white;
+	width: 5.2rem;
+	padding: .8rem .6rem;
+	border-radius: 1.6rem;
+	background-color: #ff3200;
+	border: 1px solid #ff3200;
 }
 
 /*选座*/
 .seat-container {
-  width: 960px;
-  height: 100vh;
-  background-color: #f1f4f7;
+	width: 960px;
+	height: 100vh;
+	background-color: #f1f4f7;
 }
 
 .seat-movie-info-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
 }
 
 .seat-movie-info-box .movie-name {
-  font-size: 1.6rem;
-  color: #333;
-  text-align: center;
-  padding-top: 1.5rem;
-  margin: 0;
+	font-size: 1.6rem;
+	color: #333;
+	text-align: center;
+	padding-top: 1.5rem;
+	margin: 0;
 }
 
 .seat-movie-info-box .movie-info {
-  padding-top: .5rem;
-  color: #333;
-  font-size: 1.2rem;
-  line-height: 1.5;
-  text-align: center;
+	padding-top: .5rem;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
 }
 
 .seat-movie-info-box .movie-info-time {
-  color: #fa0;
+	color: #fa0;
 }
 
 .seat-box-container {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
 }
 
 .seat-box-side {
-  margin-top: 106px;
-  position: absolute;
-  left: 0;
-  z-index: 1000;
-  border-radius: 5px;
-  font-size: 26px;
-  color: #666;
+	margin-top: 106px;
+	position: absolute;
+	left: 0;
+	z-index: 1000;
+	border-radius: 5px;
+	font-size: 26px;
+	color: #666;
 }
 
 .seat-box-side .side-num {
-  width: 2rem;
-  height: 100%;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  background: rgba(0, 0, 0, .25);
+	width: 2rem;
+	height: 100%;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	background: rgba(0, 0, 0, .25);
 }
 
 .seat-box-side .side-num div {
-  padding: 10px 0;
-  width: 100%;
-  font-size: 1.4rem;
-  line-height: 34px;
-  height: 34px;
-  text-align: center;
-  color: #fff;
+	padding: 10px 0;
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+	color: #fff;
 }
 
 .main-head {
-  padding-top: 1.5rem;
-  padding-left: 32px;
-  color: #f5f5f5;
-  height: 5.2rem;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 2.5rem;
+	padding-top: 1.5rem;
+	padding-left: 32px;
+	color: #f5f5f5;
+	height: 5.2rem;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 2.5rem;
 }
 
-.seat-area{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.seat-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .seat-row {
-  padding: 14px 0 14px 32px;
-  display: flex;
-  justify-content: center;
+	padding: 14px 0 14px 32px;
+	display: flex;
+	justify-content: center;
 }
 
 .seat {
-  /*display: inline-block;*/
-  width: 30px;
-  height: 26px;
-  margin: 0 2px;
-  background: url(images/icons/single.png) no-repeat;
-  background-position: 0 1px;
+	/*display: inline-block;*/
+	width: 30px;
+	height: 26px;
+	margin: 0 5px;
+	background-position: 0 1px;
+}
+
+.doubleseat {
+	/*display: inline-block;*/
+	width: 68px;
+	height: 26px;
+	margin: 0 6px;
+	background-position:0 0;
 }
 
 /*座位类型*/
-.empty{
-  background-image: none;
+.empty {
+	background-image: none;
 }
 
-.sold{
-  background-image: url(images/icons/sold.png);
+.sold {
+	background-image: url(images/icons/sold.png);
 }
 
-.selected{
-  background-image: url(images/icons/single-selected.png);
+.selectable {
+	background-image: url(images/icons/single.png);
 }
 
-.double-selectable{
-  background-image: url(images/icons/double.png);
+.selected {
+	background-image: url(images/icons/single-selected.png);
 }
 
-.double-selected{
-  background-image: url(images/icons/double-selected.png);
+.double-selectable {
+	background-image: url(images/icons/double.png);
 }
+
+.double-selected {
+	background-image: url(images/icons/double-selected.png);
+}
+
+/**/

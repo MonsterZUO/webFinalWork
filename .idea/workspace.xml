@@ -2,131 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a01ac0be-00ba-447e-8536-b2f9c0bfbb96" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/images/icon.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/002-person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/010-film.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/020-ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/022-tv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/001-3d-glasses.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/002-person.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/003-binoculars.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/004-chair.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/005-chair-1.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/006-clapperboard.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/007-doorway.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/008-disc.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/009-bluray.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/010-film.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/011-film-1.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/012-light.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/013-loudspeaker.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/014-popcorn.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/015-projector.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/016-projector-1.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/017-remote-control.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/018-shutter.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/019-soda.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/020-ticket.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/021-ticket-1.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/022-tv.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/023-vhs.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/024-camera.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/eps/025-video.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/license/license.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/001-3d-glasses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/002-person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/003-binoculars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/004-chair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/005-chair-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/006-clapperboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/007-doorway.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/008-disc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/009-bluray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/010-film.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/011-film-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/012-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/013-loudspeaker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/014-popcorn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/015-projector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/016-projector-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/017-remote-control.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/018-shutter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/019-soda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/020-ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/021-ticket-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/022-tv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/023-vhs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/024-camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/png/025-video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/001-3d-glasses.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/002-person.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/003-binoculars.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/004-chair.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/005-chair-1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/006-clapperboard.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/007-doorway.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/008-disc.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/009-bluray.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/010-film.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/011-film-1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/012-light.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/013-loudspeaker.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/014-popcorn.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/015-projector.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/016-projector-1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/017-remote-control.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/018-shutter.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/019-soda.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/020-ticket.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/021-ticket-1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/022-tv.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/023-vhs.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/024-camera.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/psd/025-video.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/001-3d-glasses.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/002-person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/003-binoculars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/004-chair.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/005-chair-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/006-clapperboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/007-doorway.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/008-disc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/009-bluray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/010-film.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/011-film-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/012-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/013-loudspeaker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/014-popcorn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/015-projector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/016-projector-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/017-remote-control.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/018-shutter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/019-soda.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/020-ticket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/021-ticket-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/022-tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/023-vhs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/024-camera.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/svg/025-video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theater-time.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theater.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/seat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv.html" beforeDir="false" afterPath="$PROJECT_DIR$/tv.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +44,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -201,7 +79,8 @@
       <updated>1575900208436</updated>
       <workItem from="1575900210905" duration="41808000" />
       <workItem from="1576058512060" duration="71068000" />
-      <workItem from="1576559665552" duration="13722000" />
+      <workItem from="1576559665552" duration="19237000" />
+      <workItem from="1576591146989" duration="2104000" />
     </task>
     <servers />
   </component>
