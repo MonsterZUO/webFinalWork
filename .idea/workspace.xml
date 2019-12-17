@@ -169,12 +169,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\学习\web基础\大作业\flex联系" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\学习\web基础\webFinalWork" />
       <recent name="D:\学习\web基础\大作业" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\web基础\大作业\flex联系" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -201,7 +201,7 @@
       <updated>1575900208436</updated>
       <workItem from="1575900210905" duration="41808000" />
       <workItem from="1576058512060" duration="71068000" />
-      <workItem from="1576559665552" duration="5882000" />
+      <workItem from="1576559665552" duration="12858000" />
     </task>
     <servers />
   </component>

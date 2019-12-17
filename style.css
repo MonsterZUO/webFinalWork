@@ -745,96 +745,97 @@ br {
   align-items: center;
 }
 
-.marginbottom15{
+.marginbottom15 {
   margin-bottom: 15px;
 }
 
-.theater-movie-detail{
+.theater-movie-detail {
   width: 1170px;
   display: flex;
   justify-content: flex-start;
   padding: 15px;
-  background: rgba(64,69,77,.35);
+  background: rgba(64, 69, 77, .35);
 }
 
-.theater-movie-detail img{
+.theater-movie-detail img {
   height: 100%;
   margin-right: 20px;
 }
 
-.theater-movie-poster{
+.theater-movie-poster {
   height: 200px;
 }
 
-.theater-detail-info{
+.theater-detail-info {
   margin-top: 15px;
 }
 
-.theater-list{
+.theater-list {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.theater-list-item{
+.theater-list-item {
   width: 1170px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.theater-item{
+.theater-item {
   display: flex;
   justify-content: space-between;
 }
 
-.over{
+.over {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 
-.theater-name{
+.theater-name {
   color: #333333;
   font-size: 1.6rem;
 }
 
-.lowestprice{
+.lowestprice {
   color: #ff3200;
   font-size: 1.9rem;
 }
 
-.yuan{
+.yuan {
   font-size: 1.1rem;
 }
 
-.qi{
+.qi {
   font-size: 1.1rem;
   padding-left: .1rem;
   color: #999999;
 }
 
-.theater-address{
+.theater-address {
   color: #666666;
   font-size: 1.3rem;
 }
 
-.distance{
+.distance {
   color: #999999;
   font-size: 1.2rem;
 }
 
-.theater-recent{
+.theater-recent {
   color: #666666;
   font-size: 1.3rem;
 }
+
 /*场次*/
-.time-list{
+.time-list {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.time-list-item{
+.time-list-item {
   width: 1170px;
   padding: 1.5rem;
   border-bottom: 1px solid #e5e5e5;
@@ -842,48 +843,48 @@ br {
   align-items: center;
 }
 
-.time{
+.time {
   flex: 0 0 7.5rem;
   line-height: 1.4;
 }
 
-.time-start{
+.time-start {
   font-size: 1.9rem;
   color: #333;
 }
 
-.time-end{
+.time-end {
   font-size: 1.2rem;
   margin-top: .2rem;
   padding-left: 1px;
   color: #999999;
 }
 
-.language{
+.language {
   color: #333333;
   font-size: 1.2rem;
   padding-top: .6rem;
   line-height: 1.5;
 }
 
-.movie-hall{
+.movie-hall {
   margin-top: .2rem;
   padding-top: .2rem;
   font-size: 1.2rem;
   color: #999999;
 }
 
-.time-list-price{
+.time-list-price {
   flex: 1;
   text-align: right;
 }
 
-.time-list-btn{
+.time-list-btn {
   padding-left: 2rem;
   justify-self: flex-end;
 }
 
-.time-list-btn button{
+.time-list-btn button {
   color: white;
   width: 5.2rem;
   padding: .8rem .6rem;
@@ -893,20 +894,20 @@ br {
 }
 
 /*选座*/
-.seat-container{
+.seat-container {
   width: 960px;
   height: 100vh;
   background-color: #f1f4f7;
 }
 
-.seat-movie-info-box{
+.seat-movie-info-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: white;
 }
 
-.seat-movie-info-box .movie-name{
+.seat-movie-info-box .movie-name {
   font-size: 1.6rem;
   color: #333;
   text-align: center;
@@ -914,7 +915,7 @@ br {
   margin: 0;
 }
 
-.seat-movie-info-box .movie-info{
+.seat-movie-info-box .movie-info {
   padding-top: .5rem;
   color: #333;
   font-size: 1.2rem;
@@ -922,18 +923,19 @@ br {
   text-align: center;
 }
 
-.seat-movie-info-box .movie-info-time{
+.seat-movie-info-box .movie-info-time {
   color: #fa0;
 }
 
-.seat-box-container{
+.seat-box-container {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
 }
 
-.seat-box-side{
+.seat-box-side {
+  margin-top: 106px;
   position: absolute;
   left: 0;
   z-index: 1000;
@@ -942,16 +944,16 @@ br {
   color: #666;
 }
 
-.seat-box-side .side-num{
+.seat-box-side .side-num {
   width: 2rem;
   height: 100%;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  background: rgba(0,0,0,.25);
+  background: rgba(0, 0, 0, .25);
 }
 
-.seat-box-side .side-num div{
+.seat-box-side .side-num div {
   padding: 10px 0;
   width: 100%;
   font-size: 1.4rem;
@@ -961,8 +963,9 @@ br {
   color: #fff;
 }
 
-.main-head{
+.main-head {
   padding-top: 1.5rem;
+  padding-left: 32px;
   color: #f5f5f5;
   height: 5.2rem;
   font-size: 1rem;
@@ -970,11 +973,44 @@ br {
   line-height: 2.5rem;
 }
 
-.seat{
-  width: 40px;
-  height: 40px;
+.seat-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.seat img{
-  width: 100%;
+.seat-row {
+  padding: 14px 0 14px 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.seat {
+  /*display: inline-block;*/
+  width: 30px;
+  height: 26px;
+  margin: 0 2px;
+  background: url(images/icons/single.png) no-repeat;
+  background-position: 0 1px;
+}
+
+/*座位类型*/
+.empty{
+  background-image: none;
+}
+
+.sold{
+  background-image: url(images/icons/sold.png);
+}
+
+.selected{
+  background-image: url(images/icons/single-selected.png);
+}
+
+.double-selectable{
+  background-image: url(images/icons/double.png);
+}
+
+.double-selected{
+  background-image: url(images/icons/double-selected.png);
 }
