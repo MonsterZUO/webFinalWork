@@ -7,6 +7,7 @@
   <link
       href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
       rel="stylesheet">
+  <script src="main.js"></script>
 </head>
 <body>
 <!--顶部logo和搜索-->
@@ -19,40 +20,40 @@
       </div>
       <!--站内搜索-->
       <div class="col-4">
-        <div class="row">
+        <div class="search">
           <i class="fa fa-search"></i>
           <input autocomplete="off" class="search_input" maxlength="60"
                  name="search_text" placeholder="搜索电影、电视剧、综艺、影人"
                  size="22" type="text" value="">
-          <div class="search_btn">
-            <input type="submit" value="搜索">
-          </div>
+          <button class="search_btn" type="submit">搜索</button>
         </div>
       </div>
+      <div id="showtime"></div>
     </div>
   </div>
 </header>
-<!--页眉左侧下半部分导航栏-->
+<!--大型轮播图-->
+<div class="slider">
+  <dl>
+    <dt><a href="#" id="a1"></a><a href="#" id="a2"></a><a href="#" id="a3"></a><a href="#" id="a4"></a></dt>
+    <dd><img src="images/slider1.jpg" id="banner" alt="广告"></dd>
+  </dl>
+</div>
+<!--导航栏-->
 <nav>
   <div class="container-full-center">
     <div class="row">
-      <div class="col"><a href="">我看</a></div>
-      <div class="col"><a href="#">影讯&购票</a></div>
-      <div class="col"><a href="movie.html">选电影</a></div>
-      <div class="col"><a href="tv.html">电视剧</a></div>
-      <div class="col"><a href="#">排行榜</a></div>
-      <div class="col"><a href="#">分类</a></div>
-      <div class="col"><a href="#">影评</a></div>
-      <div class="col"><a href="#">2018年度榜单</a></div>
-      <div class="col"><a href="#">2018书影音报告</a></div>
-      <div class="col"><a href="#"> 2018 豆瓣年度电影榜单</a></div>
+      <div class="col"><a href=""><img src="images/icons/002-person.png" alt=""><span class="nav-icon-info">我看</span></a></div>
+      <div class="col"><a href="#"><img src="images/icons/020-ticket.png" alt=""><span class="nav-icon-info">购票</span></a></div>
+      <div class="col"><a href="movie.html"><img src="images/icons/010-film.png" alt=""><span class="nav-icon-info">选电影</span></a></div>
+      <div class="col"><a href="tv.html"><img src="images/icons/022-tv.png" alt=""><span class="nav-icon-info">电视剧</span></a></div>
+      <div class="col"><a href="#"><img src="images/icons/music.png" alt=""><span class="nav-icon-info">音乐</span></a></div>
+      <div class="col"><a href="#"><img src="images/icons/text.png" alt=""><span class="nav-icon-info">影评</span></a></div>
+      <div class="col"><a href="#"><img src="images/icons/calendar.png" alt=""><span class="nav-icon-info">上映日历</span></a></div>
+      <div class="col"><a href="#"><img src="images/icons/star.png" alt=""><span class="nav-icon-info">收藏</span></a></div>
     </div>
   </div>
 </nav>
-<!--大型轮播图-->
-<div class="container">
-
-</div>
 <!--正在热映-->
 <section class="section">
   <div class="section-head">
@@ -60,11 +61,10 @@
     <span class="section-head-more">查看全部</span>
   </div>
   <div class="section-box">
-    <a class="section-box-left" href="#">
+    <a class="section-box-left" href="detail.html">
       <img alt="" class="section-box-left-img" src="images/joker.jpg">
       <div class="section-box-left-info">
-        <div class="section-box-left-info-title">小丑 Joker<span>(2019)</span>
-        </div>
+        <div class="section-box-left-info-title">小丑 Joker<span>(2019)</span></div>
         <div class="section-box-left-info-score">豆瓣评分:<strong>8.8</strong></div>
       </div>
     </a>
@@ -74,9 +74,18 @@
           <img alt="" src="images/joker.jpg">
         </div>
         <div class="section-box-right-item-info">
-          <div class="section-box-right-item-info-title">joker</div>
-          <div class="section-box-right-item-info-score">
-            豆瓣评分:<strong>8.8</strong></div>
+          <div class="section-box-right-item-info-title">Joker(2019)</div>
+          <div class="section-box-right-item-info-describe">
+            讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+          </div>
+          
+          <div class="section-box-right-item-info-brief">
+            <br>
+            语言: 英语
+            <br>
+            片长: 122分钟
+          </div>
+          <div class="section-box-right-item-info-score">豆瓣评分:<strong>8.8</strong></div>
         </div>
       </a>
       <a class="section-box-right-item" href="">
@@ -84,9 +93,18 @@
           <img alt="" src="images/joker.jpg">
         </div>
         <div class="section-box-right-item-info">
-          <div class="section-box-right-item-info-title">joker</div>
-          <div class="section-box-right-item-info-score">
-            豆瓣评分:<strong>8.8</strong></div>
+          <div class="section-box-right-item-info-title">Joker(2019)</div>
+          <div class="section-box-right-item-info-describe">
+            讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+          </div>
+          
+          <div class="section-box-right-item-info-brief">
+            <br>
+            语言: 英语
+            <br>
+            片长: 122分钟
+          </div>
+          <div class="section-box-right-item-info-score">豆瓣评分:<strong>8.8</strong></div>
         </div>
       </a>
       <a class="section-box-right-item" href="">
@@ -94,9 +112,18 @@
           <img alt="" src="images/joker.jpg">
         </div>
         <div class="section-box-right-item-info">
-          <div class="section-box-right-item-info-title">joker</div>
-          <div class="section-box-right-item-info-score">
-            豆瓣评分:<strong>8.8</strong></div>
+          <div class="section-box-right-item-info-title">Joker(2019)</div>
+          <div class="section-box-right-item-info-describe">
+            讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+          </div>
+          
+          <div class="section-box-right-item-info-brief">
+            <br>
+            语言: 英语
+            <br>
+            片长: 122分钟
+          </div>
+          <div class="section-box-right-item-info-score">豆瓣评分:<strong>8.8</strong></div>
         </div>
       </a>
       <a class="section-box-right-item" href="">
@@ -104,9 +131,18 @@
           <img alt="" src="images/joker.jpg">
         </div>
         <div class="section-box-right-item-info">
-          <div class="section-box-right-item-info-title">joker</div>
-          <div class="section-box-right-item-info-score">
-            豆瓣评分:<strong>8.8</strong></div>
+          <div class="section-box-right-item-info-title">Joker(2019)</div>
+          <div class="section-box-right-item-info-describe">
+            讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+          </div>
+          
+          <div class="section-box-right-item-info-brief">
+            <br>
+            语言: 英语
+            <br>
+            片长: 122分钟
+          </div>
+          <div class="section-box-right-item-info-score">豆瓣评分:<strong>8.8</strong></div>
         </div>
       </a>
       <a class="section-box-right-item" href="">
@@ -114,9 +150,18 @@
           <img alt="" src="images/joker.jpg">
         </div>
         <div class="section-box-right-item-info">
-          <div class="section-box-right-item-info-title">joker</div>
-          <div class="section-box-right-item-info-score">
-            豆瓣评分:<strong>8.8</strong></div>
+          <div class="section-box-right-item-info-title">Joker(2019)</div>
+          <div class="section-box-right-item-info-describe">
+            讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+          </div>
+          
+          <div class="section-box-right-item-info-brief">
+            <br>
+            语言: 英语
+            <br>
+            片长: 122分钟
+          </div>
+          <div class="section-box-right-item-info-score">豆瓣评分:<strong>8.8</strong></div>
         </div>
       </a>
       <a class="section-box-right-item" href="">
@@ -124,9 +169,18 @@
           <img alt="" src="images/joker.jpg">
         </div>
         <div class="section-box-right-item-info">
-          <div class="section-box-right-item-info-title">joker</div>
-          <div class="section-box-right-item-info-score">
-            豆瓣评分:<strong>8.8</strong></div>
+          <div class="section-box-right-item-info-title">Joker(2019)</div>
+          <div class="section-box-right-item-info-describe">
+            讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
+          </div>
+          
+          <div class="section-box-right-item-info-brief">
+            <br>
+            语言: 英语
+            <br>
+            片长: 122分钟
+          </div>
+          <div class="section-box-right-item-info-score">豆瓣评分:<strong>8.8</strong></div>
         </div>
       </a>
     </div>
@@ -213,20 +267,26 @@
   </div>
 </section>
 <!--版权信息-->
-<div class="copyright">
-  <div>
-        <span class="copyright_link">
-             © 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司
-        </span>
-    <span class="copyright_fright">
-            <a href="#">关于豆瓣</a>
-            <a href="#">在豆瓣工作</a>
-            <a href="#">联系我们</a>
-            <a href="#">法律声明</a>
-            <a href="#">帮助中心</a>
-            <a href="#">移动应用</a>
-            <a href="#">豆瓣广告</a>
-        </span>
+<div class="copyright-bg">
+  <div class="copyright">
+    <div class="copyright-links">
+      <a href="#">关于豆瓣</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">在豆瓣工作</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">联系我们</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">法律声明</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">帮助中心</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">移动应用</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">豆瓣广告</a>
+    </div>
+    <div>
+      <span>© 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司</span>
+    </div>
   </div>
 </div>
 </body>

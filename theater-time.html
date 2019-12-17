@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>场次信息</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+<body>
+<div class="w1200 theater">
+  <!--简介-->
+  <section class="theater-movie-detail">
+    <!--海报-->
+    <div class="theater-movie-poster"><img alt="" src="images/joker.jpg"></div>
+    <!--简介-->
+    <div class="detail-info theater-detail-info">
+      <section class="detail-title marginbottom15">
+        小丑&nbsp;Joker<span class="year">(2019)</span>
+      </section>
+      <span>剧情 | 惊悚 | 犯罪 | 美国 | 122分钟</span>
+      <br>
+      <span>上映日期: 2019-10-04(美国)</span>
+      <br>
+      <span>主演: 杰昆·菲尼克斯 / 罗伯特·德尼罗 / 马克·马龙 / 莎姬·贝兹 / 谢伊·惠格姆</span>
+    </div>
+  </section>
+  <!--推荐列表-->
+  <div class="search-factor"></div>
+  <div class="list-sort">
+    <div class="sort-items">
+      <span class="sort-item">今天 12-16</span>
+      <span class="sort-item">明天 12-17</span>
+      <span class="sort-item">后天 12-18</span>
+      <span class="sort-item">周四 12-19</span>
+      <span class="sort-item">周五 12-20</span>
+    </div>
+    <div></div>
+  </div>
+  <div class="time-list">
+    <div class="time-list-item" href="">
+      <div class="time">
+        <div class="time-start">10:10</div>
+        <div class="time-end">12:21散场</div>
+      </div>
+      <div class="time-list-movie-info">
+        <div class="language">国语2D</div>
+        <div class="movie-hall">3号天域全感音厅</div>
+      </div>
+      <div class="time-list-price">
+        <span class="lowestprice">38<span class="yuan">元</span></span>
+      </div>
+      <div class="time-list-btn">
+        <button onclick="seat()" value="购票">购票</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function seat() {
+    window.location.href='seat.html';
+  }
+</script>
+</body>
+</html>

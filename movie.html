@@ -7,6 +7,7 @@
   <link
       href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
       rel="stylesheet">
+  <script src="main.js"></script>
 </head>
 <body>
 <!--顶部logo和搜索-->
@@ -19,33 +20,43 @@
       </div>
       <!--站内搜索-->
       <div class="col-4">
-        <div class="row">
+        <div class="search">
           <i class="fa fa-search"></i>
           <input autocomplete="off" class="search_input" maxlength="60"
                  name="search_text" placeholder="搜索电影、电视剧、综艺、影人"
                  size="22" type="text" value="">
-          <div class="search_btn">
-            <input type="submit" value="搜索">
-          </div>
+          <button class="search_btn" type="submit">搜索</button>
         </div>
       </div>
+      <div id="showtime"></div>
     </div>
   </div>
 </header>
-<!--页眉左侧下半部分导航栏-->
+<!--导航栏-->
 <nav>
   <div class="container-full-center">
     <div class="row">
-      <div class="col"><a href="#">热门</a></div>
-      <div class="col"><a href="#">最新</a></div>
-      <div class="col"><a href="#">经典</a></div>
-      <div class="col"><a href="#">可播放</a></div>
-      <div class="col"><a href="#">豆瓣高分</a></div>
-      <div class="col"><a href="#">冷门佳片</a></div>
-      <div class="col"><a href="#">华语</a></div>
-      <div class="col"><a href="#">欧美</a></div>
-      <div class="col"><a href="#">韩国</a></div>
-      <div class="col"><a href="#">日本</a></div>
+      <div class="col"><a href=""><img alt="" src="images/icons/002-person.png"><span
+          class="nav-icon-info">我看</span></a></div>
+      <div class="col"><a href="#"><img alt=""
+                                        src="images/icons/020-ticket.png"><span
+          class="nav-icon-info">购票</span></a></div>
+      <div class="col"><a href="movie.html"><img alt=""
+                                                 src="images/icons/010-film.png"><span
+          class="nav-icon-info">选电影</span></a></div>
+      <div class="col"><a href="tv.html"><img alt=""
+                                              src="images/icons/022-tv.png"><span
+          class="nav-icon-info">电视剧</span></a></div>
+      <div class="col"><a href="#"><img alt=""
+                                        src="images/icons/music.png"><span
+          class="nav-icon-info">音乐</span></a></div>
+      <div class="col"><a href="#"><img alt="" src="images/icons/text.png"><span
+          class="nav-icon-info">影评</span></a></div>
+      <div class="col"><a href="#"><img alt=""
+                                        src="images/icons/calendar.png"><span
+          class="nav-icon-info">上映日历</span></a></div>
+      <div class="col"><a href="#"><img alt="" src="images/icons/star.png"><span
+          class="nav-icon-info">收藏</span></a></div>
     </div>
   </div>
 </nav>
@@ -70,27 +81,39 @@
         <div class="list-item-text-describe">
           本片的故事将独立于DCEU之外，故事背景设置在20世纪80年代，讲述了一位生活陷入困境的脱口秀喜剧演员渐渐走向精神的崩溃，在哥谭市开始了疯狂的犯罪生涯，最终成为了蝙蝠侠的宿敌“小丑”的故事。
         </div>
-
+        <div class="list-item-text-runtime">
+          片长: 122分钟 / 118分钟(威尼斯电影节)
+          <span>上映日期: 2019-08-31(威尼斯电影节) / 2019-10-04(美国)</span>
+        </div>
+        <div>导演: 托德·菲利普斯, 编剧: 托德·菲利普斯 / 斯科特·西尔弗 / 鲍勃·凯恩 / 比尔·芬格 / 杰瑞·罗宾逊</div>
+        <div>主演: 杰昆·菲尼克斯 / 罗伯特·德尼罗 / 马克·马龙 / 莎姬·贝兹 /谢伊·惠格姆/<a href="#">更多...</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <!--版权信息-->
-<div class="copyright">
-  <div>
-        <span class="copyright_link">
-             © 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司
-        </span>
-    <span class="copyright_fright">
-            <a href="#">关于豆瓣</a>
-            <a href="#">在豆瓣工作</a>
-            <a href="#">联系我们</a>
-            <a href="#">法律声明</a>
-            <a href="#">帮助中心</a>
-            <a href="#">移动应用</a>
-            <a href="#">豆瓣广告</a>
-        </span>
+<div class="copyright-bg">
+  <div class="copyright">
+    <div class="copyright-links">
+      <a href="#">关于豆瓣</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">在豆瓣工作</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">联系我们</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">法律声明</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">帮助中心</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">移动应用</a>
+      <span class="copyright-gap">|</span>
+      <a href="#">豆瓣广告</a>
+    </div>
+    <div>
+        <span>© 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司</span>
+    </div>
   </div>
 </div>
 </body>
