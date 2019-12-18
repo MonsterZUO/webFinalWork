@@ -7,7 +7,9 @@
   <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
   </script>
   <script>
+	// 类似于window.onload  让dom在函数之前加载
     $(document).ready(function(){
+	// 给class为"seat"的span添加click函数
       $("span.seat").click(function(){
 		$(this).toggleClass("selected");
       });

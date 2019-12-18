@@ -4,7 +4,6 @@
     <list default="true" id="a01ac0be-00ba-447e-8536-b2f9c0bfbb96" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/seat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <workItem from="1575900210905" duration="41808000" />
       <workItem from="1576058512060" duration="71068000" />
       <workItem from="1576559665552" duration="19237000" />
-      <workItem from="1576591146989" duration="2104000" />
+      <workItem from="1576591146989" duration="2982000" />
     </task>
     <servers />
   </component>
