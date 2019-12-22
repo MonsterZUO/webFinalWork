@@ -241,7 +241,7 @@ nav .row .col a img {
 
 /*ÂÖ²¥Í¼*/
 .slider {
-	width: 1200px;
+	width: 90%;
 	/*height: 335px;*/
 	position: relative;
 	margin-bottom: 0.5rem;
@@ -413,6 +413,7 @@ nav .row .col a img {
 	/*line-height: 20px;*/
 	font-size: 16px;
 	overflow: hidden;
+	text-overflow: ellipsis;
 	margin-bottom: 10px;
 }
 
@@ -501,6 +502,7 @@ br {
 
 .list-item-img img {
 	width: 100%;
+	height: 240px;
 }
 
 .list-item-text {
@@ -552,7 +554,12 @@ br {
 
 .tv-list-item img {
 	width: 100%;
+	height: 337px;
 	transition: 0.5s;
+}
+
+.text-align-center{
+	text-align: center;
 }
 
 .tv-list-item-hover {
@@ -565,7 +572,6 @@ br {
 	text-align: center;
 	border-radius: 20px;
 	display: none;
-	opacity: 0;
 	transition: 0.5s;
 }
 
@@ -575,7 +581,6 @@ br {
 }
 
 .tv-list-item:hover .tv-list-item-hover {
-	opacity: 1;
 	display: block;
 }
 
@@ -895,12 +900,12 @@ br {
 	text-align: right;
 }
 
-.time-list-btn {
+.time-list-btn-box {
 	padding-left: 2rem;
-	justify-self: flex-end;
+	/*justify-self: flex-end;*/
 }
 
-.time-list-btn button {
+.time-list-btn{
 	color: white;
 	width: 5.2rem;
 	padding: .8rem .6rem;
@@ -914,6 +919,9 @@ br {
 	width: 960px;
 	height: 100vh;
 	background-color: #f1f4f7;
+	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 .seat-movie-info-box {
@@ -943,6 +951,7 @@ br {
 	color: #fa0;
 }
 
+/**/
 .seat-box-container {
 	display: flex;
 	flex-direction: column;
@@ -950,6 +959,7 @@ br {
 	width: 100%;
 }
 
+/*²à±ßºÅÂëÀ¸*/
 .seat-box-side {
 	margin-top: 106px;
 	position: absolute;
@@ -969,6 +979,7 @@ br {
 	background: rgba(0, 0, 0, .25);
 }
 
+/*×ùÎ»²à±ßºÅÂëÀ¸ºÅÂë*/
 .seat-box-side .side-num div {
 	padding: 10px 0;
 	width: 100%;
@@ -979,6 +990,7 @@ br {
 	color: #fff;
 }
 
+/*×ùÎ»Í·²¿*/
 .main-head {
 	padding-top: 1.5rem;
 	padding-left: 32px;
@@ -1042,4 +1054,49 @@ br {
 	background-image: url(images/icons/double-selected.png);
 }
 
-/**/
+/*È·ÈÏÑ¡×ù*/
+.seat-box-bottom{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.seat-box-bottom-flag{
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.seat-example{
+	background-repeat: no-repeat;
+	padding-left: 36px;
+	line-height: 26px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.doubleseat-example{
+	padding-left: 73px;
+}
+
+.confirm-btn-box{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.confirm-btn{
+	display: flex;
+	justify-content: center;
+	width: 8rem;
+}

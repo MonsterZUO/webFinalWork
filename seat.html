@@ -4,19 +4,22 @@
   <meta charset="UTF-8">
   <title>选座</title>
   <link href="style.css" rel="stylesheet">
-  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
-  </script>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
   <script>
-	// 类似于window.onload  让dom在函数之前加载
-    $(document).ready(function(){
-	// 给class为"seat"的span添加click函数
-      $("span.seat").click(function(){
-		$(this).toggleClass("selected");
+    // 类似于window.onload  让dom在函数之前加载
+    $(document).ready(function() {
+      // 给class为"seat"的span添加click函数
+      $('span.seat').click(function() {
+        $(this).toggleClass('selected');
       });
-	  $("span.doubleseat").click(function(){
-	  	$(this).toggleClass("double-selected");
-	  });
+      $('span.doubleseat').click(function() {
+        $(this).toggleClass('double-selected');
+      });
     });
+    //
+    function confirm() {
+	    window.location.href='detail.html';
+    }
   </script>
 </head>
 <body>
@@ -54,127 +57,141 @@
           <div class="seat-area">
             <div class="seat-row">
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
             </div>
             <div class="seat-row">
               <span class="seat selectable"></span>
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>			 
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
             </div>
             <div class="seat-row">
               <span class="seat selectable"></span>
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
             </div>
             <div class="seat-row">
               <span class="seat selectable"></span>
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>			  
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
             </div>
             <div class="seat-row">
               <span class="seat selectable"></span>
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>			  
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
             </div>
             <div class="seat-row">
               <span class="seat selectable"></span>
               <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
             </div>
-			<div class="seat-row">
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			</div>
-			<div class="seat-row">
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			</div>
-			<div class="seat-row">
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			  <span class="seat selectable"></span>
-			</div>
-			<div class="seat-row">
-			  <span class="doubleseat double-selectable"></span>
-			  <span class="doubleseat double-selectable"></span>
-			  <span class="doubleseat double-selectable"></span>
-			  <span class="doubleseat double-selectable"></span>
-			  <span class="doubleseat double-selectable"></span>
-			</div>
+            <div class="seat-row">
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+            </div>
+            <div class="seat-row">
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+            </div>
+            <div class="seat-row">
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+              <span class="seat selectable"></span>
+            </div>
+            <div class="seat-row">
+              <span class="doubleseat double-selectable"></span>
+              <span class="doubleseat double-selectable"></span>
+              <span class="doubleseat double-selectable"></span>
+              <span class="doubleseat double-selectable"></span>
+              <span class="doubleseat double-selectable"></span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="seat-box-bottom">
-		  <div class=""></div>
-	  </div>
+    </div>
+  </div>
+  <div class="seat-box-bottom">
+    <div class="bottom">
+      <div class="seat-box-bottom-flag">
+	      <div class="seat-example selectable"><span>可选座位</span></div>
+	      <div class="seat-example sold"><span>已售座位</span></div>
+	      <div class="seat-example selected"><span>已选座位</span></div>
+	      <div class="seat-example doubleseat-example double-selectable"><span>情侣座位</span></div>
+      </div>
+	    <div class="confirm-btn-box">
+		    <button class="time-list-btn confirm-btn" onclick="confirm()" value="确认购票">确认购票</button>
+	    </div>
     </div>
   </div>
 </div>
+
+<script>
+
+</script>
 </body>
 </html>
